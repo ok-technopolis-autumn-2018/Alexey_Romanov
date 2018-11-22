@@ -1,0 +1,57 @@
+
+.todos-toolbar {
+    grid-template-columns: 20% 60% 20%;
+    padding: .7em;
+    font-size: .7em;
+    color: #888888;
+    align-items: center;
+    max-height: 30px;
+
+    border-top: 1px solid #ccc;
+    }
+
+.todos-toolbar_unready-counter {
+    justify-self: left;
+    font-size: .8rem;
+    }
+
+.todos-toolbar_filters {
+    justify-self: center;
+    font-size: .8rem;
+    line-height: .8rem;
+    }
+
+.todos-toolbar_clear-completed {
+    justify-self: right;
+    font-size: .8rem;
+    border: none;
+    outline: none;
+    background: none;
+    color: #888888;
+    padding: 0;
+
+    cursor: pointer;
+    }
+
+    .filters {
+        text-align: center;
+    }
+
+    .filters-item{
+        border: none;
+        background: none;
+        color: #888888;
+        margin-left: 1px;
+        margin-right: 1px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+        cursor: pointer
+        }
+
+.filters-item:hover,
+.filters-item.__selected {
+        border: 1px solid #ebdfdf;
+        border-radius: .3em;
+        margin: 0;
+        }

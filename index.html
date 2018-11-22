@@ -13,6 +13,7 @@
     <h1 class="todo-title">Todos</h1>
 
     <div class="todo-board __has-content">
+
         <form class="todo-creator">
             <button class="todo-creator_check-all" aria-label="Check all items as done"></button>
             <div class="todo-creator_text-input-w">
@@ -31,7 +32,7 @@
                 </div>
                 <button class="todos-list_item_remove" aria-label="Delete todo"></button>
                 <div class="todos-list_item_text-w">
-                    <textarea readonly class="todos-list_item_text">HTML</textarea>
+                    <div class="todos-list_item_text">HTML</div>
                 </div>
             </div>
 
@@ -44,7 +45,7 @@
                 </div>
                 <button class="todos-list_item_remove" aria-label="Delete todo"></button>
                 <div class="todos-list_item_text-w">
-                    <textarea readonly class="todos-list_item_text">CSS</textarea>
+                    <div class="todos-list_item_text">CSS</div>
                 </div>
             </div>
 
@@ -57,10 +58,10 @@
                 </div>
                 <button class="todos-list_item_remove" aria-label="Delete todo"></button>
                 <div class="todos-list_item_text-w">
-                    <textarea readonly class="todos-list_item_text">JS</textarea>
+                    <div class="todos-list_item_text">JS</div>
                 </div>
             </div>
-
+          
             <div class="todos-list_item">
                 <div class="custom-checkbox todos-list_item_ready-marker">
                     <input type="checkbox" class="custom-checkbox_target" aria-label="Mark todo as ready"/>
@@ -70,19 +71,20 @@
                 </div>
                 <button class="todos-list_item_remove" aria-label="Delete todo"></button>
                 <div class="todos-list_item_text-w">
-                    <textarea readonly class="todos-list_item_text">JS tools</textarea>
+                    <div class="todos-list_item_text">JS tools</div>
                 </div>
             </div>
-
         </div>
 
         <div class="todos-toolbar">
             <div class="todos-toolbar_unready-counter">3 items left</div>
+
             <div class="filters todos-toolbar_filters">
                 <button class="filters-item __selected" aria-label="Filter: All, is selected">All</button>
                 <button class="filters-item" aria-label="Filter: Active">Active</button>
                 <button class="filters-item" aria-label="Filter: Completed">Completed</button>
             </div>
+
             <button class="todos-toolbar_clear-completed">Clear completed</button>
 
         </div>
